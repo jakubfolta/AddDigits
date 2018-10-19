@@ -34,6 +34,24 @@ def digit_sum(n): # Defining function which will add digits of a positive number
   
 digit_sum(134)
 
+def digit_sum(n):
+  tot = [0]
+  if n > 0:
+    for x in str(n):
+      tot.append(int(x))
+    return sum(tot)
+  else:
+    print ('Enter a positive number!')
     
+print (digit_sum(546))
 
-
+def sum_digit(n):
+  sum = 0
+  if n > 0:
+    for w in str(n):
+      sum += int(w)
+    return sum
+  else:
+    print ('Enter a positive number!')
+    
+print (sum_digit(5467))
