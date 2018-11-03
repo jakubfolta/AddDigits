@@ -35,3 +35,24 @@ def adding(num):
 
     
 print(adding(4245))
+
+
+def add_dig(numbers):
+  total = 0
+  for num in str(numbers):
+    total += int(num)
+  return total
+
+print(add_dig(6573811))
+
+
+def adding(num):
+  return sum(int(dig) for dig in str(num))
+
+print(adding(3237122))
+
+
+
+
+
+  
