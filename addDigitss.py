@@ -14,5 +14,4 @@ print(addingDigits(344563))
 def addingDigits(number):
     return sum([int(x) for x in str(number)])
     
-
 print(addingDigits(232))
