@@ -14,4 +14,7 @@ def add(number):
 
 print(add(432423))
 
+def adding(number):
+    return sum([int(x) for x in str(number)])
 
+print(adding(5442354556))
