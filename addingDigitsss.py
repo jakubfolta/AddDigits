@@ -6,7 +6,12 @@ def adding(number):
 
 print(adding(43256))
 
-git add(number):
+def add(number):
     total = 0
     for x in str(number):
         total += int(x)
+    return total
+
+print(add(432423))
+
+
