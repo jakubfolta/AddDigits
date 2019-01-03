@@ -25,8 +25,8 @@ def addingDigits(number):
     lengthOfNumber = len(number)
     while lengthOfNumber > 0:
         total += int(number[lengthOfNumber - 1])
-        lengthOfNumber - 1
+        lengthOfNumber -= 1
     return total
 
-print(addingDigits(112))
+print(addingDigits(112111))
         
