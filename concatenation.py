@@ -18,3 +18,15 @@ def addingDigits(number):
     return sum(total)
 
 print(addingDigits(2132424))
+
+def addingDigits(number):
+    total = 0
+    number = str(number)
+    lengthOfNumber = len(number)
+    while lengthOfNumber > 0:
+        total += int(number[lengthOfNumber - 1])
+        lengthOfNumber - 1
+    return total
+
+print(addingDigits(112))
+        
