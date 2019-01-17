@@ -26,3 +26,9 @@ def addDigits(number):
     return total
 
 print(addDigits(1112))
+
+def digitsConcatenation(number):
+    return sum(int(x) for x in str(number))
+
+print(digitsConcatenation(2221))
+
