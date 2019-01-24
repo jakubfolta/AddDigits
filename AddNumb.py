@@ -27,3 +27,11 @@ def addNumbersFromList(numbers):
   return total
 
 print(addNumbersFromList([3, 4, 6, 4, 2, 2, 3]))
+
+def addingNumbers(numbers):
+  total = 0
+  for number in str(numbers):
+    total += int(number)
+  return total
+
+print(addingNumbers(9876))
