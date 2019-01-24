@@ -35,3 +35,9 @@ def addingNumbers(numbers):
   return total
 
 print(addingNumbers(9876))
+
+
+def addingDigits(numbers):
+  return sum(int(x) for x in str(numbers))
+
+print(addingDigits(16523783))
