@@ -32,3 +32,18 @@ def digitsConcatenation(number):
 
 print(digitsConcatenation(2221))
 
+def addingNumbers(number):
+    return sum([int(x) for x in str(number)])
+
+print(addingNumbers(111))
+
+def addingNumbers(number):
+    total = 0
+
+    for x in str(number):
+        total += int(x)
+        
+    return total
+
+print(addingNumbers(111))
+
