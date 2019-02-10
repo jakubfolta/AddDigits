@@ -52,6 +52,16 @@ def adding(num):
 print(adding(3237122))
 
 
+def adding(number):
+  total = [0]
+
+  for x in str(number):
+    total.append(int(x))
+  return sum(total)
+
+
+print(adding(121))
+
 
 
 
