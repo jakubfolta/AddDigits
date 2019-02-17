@@ -76,4 +76,9 @@ def addDigits(numbers):
 
 print(addDigits(1121211))
 
-  
+
+def addDigits(digits):
+  digitsList = [int(x) for x in str(digits)]
+  return sum(digitsList)
+
+print(addDigits(111))
