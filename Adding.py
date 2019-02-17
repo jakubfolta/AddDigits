@@ -71,5 +71,9 @@ print(addDigits(121111111))
 def addDigits(numbers):
   total = []
   for x in str(numbers):
+    total.append(int(x))
+  return total
+
+print(addDigits(1121211))
 
   
