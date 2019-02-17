@@ -72,7 +72,7 @@ def addDigits(numbers):
   total = []
   for x in str(numbers):
     total.append(int(x))
-  return total
+  return sum(total)
 
 print(addDigits(1121211))
 
