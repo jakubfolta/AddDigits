@@ -68,6 +68,8 @@ def addDigits(numbers):
 print(addDigits(121111111))
 
 
-
+def addDigits(numbers):
+  total = []
+  for x in str(numbers):
 
   
