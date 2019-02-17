@@ -62,6 +62,11 @@ def adding(number):
 
 print(adding(121))
 
+def addDigits(numbers):
+  return sum(int(x) for x in str(numbers))
+
+print(addDigits(121111111))
+
 
 
 
