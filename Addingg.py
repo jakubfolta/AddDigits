@@ -19,3 +19,13 @@ def add_numbers(digits):
   return sum([int(x) for x in str(digits)])
 
 print(add_numbers(42134245))
+
+
+def add_numbers(digits):
+  total = []
+  for x in str(digits):
+    total.append(int(x))
+  return sum(total)
+
+print(add_numbers(3123))
+
