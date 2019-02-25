@@ -16,4 +16,6 @@ def adding(numbers):
 print(adding(1123))
 
 def add_numbers(digits):
-  return
+  return sum([int(x) for x in str(digits)])
+
+print(add_numbers(42134245))
