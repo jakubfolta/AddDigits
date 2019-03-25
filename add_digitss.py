@@ -1,7 +1,4 @@
 def add_digits(numbers):
-    numbers_list = list(str(numbers))
-    print(numbers_list)
-    total = sum(number)
-    return total
+    return (sum([int(x) for x in list(str(numbers))]))
 
 print(add_digits(432565))
