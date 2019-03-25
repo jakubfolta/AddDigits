@@ -10,3 +10,11 @@ def add_digits(digits):
     return print(sum(total))
 
 add_digits(424455676578)
+
+def add_digits(numbers):
+    total = 0
+    for x in str(numbers):
+        total += int(x)
+    return print(total)
+
+add_digits(432451212)
